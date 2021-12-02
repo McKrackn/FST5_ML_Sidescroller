@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <LangVersion>8.0</LangVersion>
+    <LangVersion>latest</LangVersion>
   </PropertyGroup>
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -53,10 +53,7 @@
     <UnityVersion>2020.3.19f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Analyzer Include="C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\Common7\IDE\Extensions\Microsoft\Visual Studio Tools for Unity\Analyzers\Microsoft.Unity.Analyzers.dll" />
-  </ItemGroup>
-  <ItemGroup>
-    <Compile Include="Assets\PlayerBehaviour.cs" />
+    <Compile Include="Assets\Scripts\PlayerBehaviour.cs" />
     <Compile Include="Assets\2DGamekit\Utilities\DefaultPlayables\ScreenFader\ScreenFaderClip.cs" />
     <Compile Include="Assets\2DGamekit\Scripts\Core\InteractOnCollision2D.cs" />
     <Compile Include="Assets\2DGamekit\Scripts\Core\LayerMaskExtensions.cs" />
@@ -93,7 +90,7 @@
     <Compile Include="Assets\2DGamekit\Utilities\DefaultPlayables\TimeDilation\TimeDilationBehaviour.cs" />
     <Compile Include="Assets\2DGamekit\Utilities\DefaultPlayables\TextSwitcher\TextSwitcherTrack.cs" />
     <Compile Include="Assets\2DGamekit\Utilities\DefaultPlayables\LightControl\LightControlMixerBehaviour.cs" />
-    <Compile Include="Assets\CharacterMovement.cs" />
+    <Compile Include="Assets\Scripts\CharacterMovement.cs" />
     <Compile Include="Assets\2DGamekit\Scripts\AI\BT.cs" />
     <Compile Include="Assets\2DGamekit\Utilities\Standard Assets\Effects\ImageEffects\Scripts\BlurOptimized.cs" />
     <Compile Include="Assets\2DGamekit\Scripts\Core\InteractOnButton2D.cs" />
@@ -120,7 +117,7 @@
     <Compile Include="Assets\2DGamekit\Utilities\DefaultPlayables\NavMeshAgentControl\NavMeshAgentControlMixerBehaviour.cs" />
     <Compile Include="Assets\2DGamekit\Scripts\Character\MonoBehaviours\Damager.cs" />
     <Compile Include="Assets\2DGamekit\Scripts\UI\HealthUI.cs" />
-    <Compile Include="Assets\CharacterState.cs" />
+    <Compile Include="Assets\Scripts\CharacterState.cs" />
     <Compile Include="Assets\2DGamekit\Utilities\DefaultPlayables\Video\VideoScriptPlayableTrack.cs" />
     <Compile Include="Assets\2DGamekit\Scripts\Core\Checkpoint.cs" />
     <Compile Include="Assets\2DGamekit\Scripts\SceneManagement\ScreenFader.cs" />
@@ -147,7 +144,7 @@
     <Compile Include="Assets\2DGamekit\Scripts\Character\StateMachineBehaviours\Player\HurtSMB.cs" />
     <Compile Include="Assets\2DGamekit\Scripts\Core\ObjectPool.cs" />
     <Compile Include="Assets\2DGamekit\Scripts\Core\TimedDisabling.cs" />
-    <Compile Include="Assets\PlayerMovement.cs" />
+    <Compile Include="Assets\Scripts\PlayerMovement.cs" />
     <Compile Include="Assets\2DGamekit\Scripts\Character\StateMachineBehaviours\Player\LocomotionWithGunSMB.cs" />
     <Compile Include="Assets\2DGamekit\Scripts\Utility\SetMaterialRenderQueue.cs" />
     <Compile Include="Assets\2DGamekit\Utilities\DefaultPlayables\TimeDilation\TimeDilationMixerBehaviour.cs" />
@@ -190,7 +187,7 @@
     <Compile Include="Assets\2DGamekit\Scripts\SceneManagement\SceneNameAttribute.cs" />
     <Compile Include="Assets\2DGamekit\Scripts\Utility\AutoCameraSetup.cs" />
     <Compile Include="Assets\2DGamekit\Scripts\Effect\BossDoorStateManager.cs" />
-    <Compile Include="Assets\PlayerAgent.cs" />
+    <Compile Include="Assets\Scripts\PlayerAgent.cs" />
     <Compile Include="Assets\2DGamekit\Utilities\DefaultPlayables\Video\VideoSchedulerPlayableBehaviour.cs" />
     <Compile Include="Assets\2DGamekit\Scripts\UI\StartUI.cs" />
     <Compile Include="Assets\2DGamekit\Scripts\Character\MonoBehaviours\PlayerCharacter.cs" />

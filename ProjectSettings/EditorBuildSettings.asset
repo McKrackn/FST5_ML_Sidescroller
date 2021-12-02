@@ -48,6 +48,6 @@ EditorBuildSettings:
     path: 
     guid: a341347ecfade124f817cac8ea56a209
   - enabled: 1
-    path: Assets/trainingScene.unity
+    path: Assets/Scenes/trainingScene.unity
     guid: 40056c2f516368c4684b8f96c1c306fe
   m_configObjects: {}
